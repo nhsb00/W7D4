@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
@@ -33,8 +34,7 @@
   > ul {
 
     > li {
-        margin: 10px;
-
+        margin: 5px;
     }
 
     > li:last-of-type {
@@ -44,6 +44,7 @@
   
   i {
     font-size: 20px;
+
   }
 }
 
