@@ -1,0 +1,9 @@
+.section-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: $light-gray;
+}

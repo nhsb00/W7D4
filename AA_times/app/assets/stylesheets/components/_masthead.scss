@@ -15,6 +15,10 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	stylesheets/components/_sections_nav.scss
+	li:first-of-type {
+		font-weight: bold;
+	}
 
 	a {
 		margin: 0 5px;
@@ -71,4 +75,9 @@
 	strong {
 		color: green;
 	}
+
+	li:last-child {
+		border-right: none;
+	}
+
 }
